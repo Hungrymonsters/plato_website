@@ -1,0 +1,166 @@
+body {
+	font-family: Times New Roman, Arial, sans-serif;
+	background-color: #FFFFCC;
+	padding-bottom: 100px;
+}
+
+.navbar.navbar-expand-lg	{
+	position: fixed;
+	width: 100%;
+}
+
+.exprience	{
+	margin-left: -1em;
+}
+
+.no_bullet_points {
+	list-style-type: none;
+}
+
+footer {
+	left:0px;
+	right: 0px;
+	height: 50px;
+	border-radius: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#alert {
+    height: auto; 
+    width: auto; 
+    max-width: 40px; 
+    max-height: 40px;
+	float: left;
+}
+	
+	
+#profile_pic {
+    height: auto; 
+    width: auto; 
+    max-width: 200px;
+	border-radius: 3px;
+	padding-bottom: 5px;
+}
+
+#text-under-pic {
+	margin-left: -3em;
+}
+
+#Email {
+    height: auto; 
+    width: auto; 
+    max-width: 54px; 
+    max-height: 54px;
+}
+
+
+#Twitter {
+    height: auto; 
+    width: auto; 
+    max-width: 54px; 
+    max-height: 54px;
+}
+
+#GitHub {
+    height: auto; 
+    width: auto; 
+    max-width: 54x; 
+    max-height: 54px;
+}
+	
+#copy_right {
+	position: absolute;
+    bottom: 8px;
+    right: 20px;
+    font-size: 12px;
+  }
+
+#ham{
+	height: 28px;
+	width: 28px;
+}
+ 
+#ham-footer{
+	height:40px;
+	width: 40px;
+}
+
+
+
+@media screen and (min-width: 1240px) {
+	.container {
+		width: 1240px;
+		margin-left: 10%;
+		margin-right:10%;
+		margin-bottom: 5%;
+		padding-top: 4%;
+	}
+	
+	.column {
+		padding-left: 25px;
+		padding-right: 2px;
+	}
+	
+	.navbar-toggler{
+		float: right;
+		outline: none;
+		border: none;
+		background-color: #e6ffcc;
+		display: none;
+	}
+	
+	.navbar-toggler-footer{
+		outline: none;
+		border: none;
+		background-color: #80ffd4;
+		display: none;
+	}
+	
+	
+}
+
+@media screen and (max-width: 1240px) {
+	.container {
+		width: 100%;
+		margin-bottom: 5%;
+		padding-top: 15%;
+	}
+	
+	.column {
+        width: 100%;
+    }
+	
+	.navbar-toggler{
+		float: right;
+		outline: none;
+		border: none;
+		background-color: #e6ffcc;
+		display: yes;
+	}
+	
+	
+	.navbar-toggler-footer{
+		outline: none;
+		border: none;
+		background-color: #80ffd4;
+		display: yes;
+	}
+
+	
+}
